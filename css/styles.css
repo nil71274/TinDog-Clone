@@ -1,0 +1,158 @@
+body {
+    font-family: 'Maven+Pro', sans-serif;
+}
+h1, h2, h3,h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.hh1 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin:20% 0% 0% 0%;
+    line-height: 5.5rem;
+}
+.h22 {
+    font-weight: 400;
+    line-height: 4rem; 
+    font-size: 40px;   
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+
+
+
+
+/*  Navigation  */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    --bs-navbar-brand-font-size: 2.5rem;
+    font-weight: 600;
+}
+.nav-item {
+    padding: 0px 18px 9px 18px;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+.container--fluid {
+    padding: 3% 15% 5% 15%;
+}
+
+/*  Container  */
+
+#apple {
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 35px;
+}
+#google {
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 20px;
+}
+.dwl-butt {
+    margin: 5% 5% 0% 0%;
+}
+
+/*  container2  */
+.image3 {
+    padding-top: 30px;
+    right: 23%;
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+
+/*  Features  */
+.featureImg {
+    width: 120px;
+    padding-bottom: 30px;
+    
+}
+#features{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10% 10%;
+    position: relative;
+}
+.ab {
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: rgb(100, 100, 100);
+}
+
+
+/*  Testimonials   */
+#testimonials {
+    text-align: center;
+    background-color: #f36e6e;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 40px;
+}
+.carousel-item {
+    padding: 10% 10%;
+}
+
+/*  Press  */
+#press {
+    background-color: #f36e6e;
+    text-align: center;
+    
+}
+.pressimg {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*    Pricing    */
+#pricing {
+    margin: 5% 10%;
+    text-align: center;
+}
+.pricingCard {
+    padding: 3% 2%;
+}
+
+/*   Footer    */
+#cta {
+    text-align: center;
+    padding: 10%;
+    background-color: #ff4c68;
+}
+.comment {
+    font-size: 20px;
+    padding-top: 30px;
+    color: antiquewhite;
+}
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+.footericon {
+    color: black;
+    width: 40px;
+}
+
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+    .image3 {
+        transform: rotate(0deg);
+        position: static;
+    }
+}
